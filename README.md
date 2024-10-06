@@ -1,6 +1,11 @@
 ## CMake
 First install the following:
-[CMake](https://cmake.org/download/), [Visual Studio](https://visualstudio.microsoft.com/)(Make sure to select "Desktop Development with C++ workload), [MiniConda](https://docs.anaconda.com/miniconda/), [git for Windows](https://git-scm.com/downloads/win),  then proceed with the install below:
+- [CMake](https://cmake.org/download/)
+- [Visual Studio](https://visualstudio.microsoft.com/) (Make sure to select "Desktop Development with C++ workload)
+- [MiniConda](https://docs.anaconda.com/miniconda/)
+- [git for Windows](https://git-scm.com/downloads/win)
+
+Then proceed with the install below:
 
 ## Windows Install
 ```
