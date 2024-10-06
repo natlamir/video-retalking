@@ -1,5 +1,6 @@
 ## CMake
-First install [CMake](https://cmake.org/download/), then proceed with the install below:
+First install the following:
+[CMake](https://cmake.org/download/), [Visual Studio](https://visualstudio.microsoft.com/)(Make sure to select "Desktop Development with C++ workload), [MiniConda](https://docs.anaconda.com/miniconda/), [git for Windows](https://git-scm.com/downloads/win),  then proceed with the install below:
 
 ## Windows Install
 ```
@@ -10,7 +11,7 @@ conda activate video-retalking
 
 conda install ffmpeg
 
-conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
 
 pip install -r requirements.txt
 ```
